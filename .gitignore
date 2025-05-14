@@ -1,0 +1,24 @@
+# Python compiled files
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Environment
+venv/
+.env
+.venv/
+
+*.mp4
+
+
+__pycache__/
+*.pyc
+*.mp4
+*.mov
+*.csv
+*.log
+.venv/
+*.zip
+node_modules/
+.DS_Store
