@@ -147,8 +147,7 @@ graph TD
    ```
 
 ## Running the Application
-
-To process the test video (`video cut 3.mp4`):
+1. Download the test video ([video cut 3.mp4](https://drive.google.com/file/d/1Oh9IRFWeA_uFo74Xgbr4z2qev1hwQJ-R/view?usp=sharing)) and place in repo
 
 1. Run the processing script:
    ```bash
