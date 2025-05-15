@@ -107,7 +107,6 @@ graph TD
 - `pose_estimation.py` - Pose data extraction and geometric transformations
 - `process_clip.py` - Main pipeline orchestration and component integration
 - `models.py` - Data models and I/O operations for video processing
-- `hough_test.ipynb` - Computer vision experimentation notebook for feature detection
 
 ## Processing Flow
 
@@ -123,37 +122,16 @@ graph TD
    ```
 5. Different visualization components use the final data state for rendering
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/camappel/SportAnalytics-Pipeline.git
-   cd SportAnalytics-Pipeline
-   ```
+## Installation and Usage
+Clone the repository:
+```bash
+git clone https://github.com/camappel/SportAnalytics-Pipeline.git
+cd SportAnalytics-Pipeline
+git lfs pull
 
-2. Set up a virtual environment (recommended):
-   ```bash
-   python -m venv venv
-   
-   # On Windows
-   venv\Scripts\activate
-   
-   # On macOS/Linux
-   source venv/bin/activate
-   ```
+python -m venv venv
 
-3. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+pip install -r requirements.txt
 
-## Running the Application
-1. Download the test video ([video cut 3.mp4](https://drive.google.com/file/d/1Oh9IRFWeA_uFo74Xgbr4z2qev1hwQJ-R/view?usp=sharing)) and place in repo
-
-1. Run the processing script:
-   ```bash
-   python process_clip.py
-   ```
-   - Process the input video with pose estimation
-   - Display a visual overlay of the analysis
-   - Save the processed video to `video combinedscreen 3.mp4`
-   - Store pose daata data in `metrics_data.csv`
+python process_clip.py
+```
