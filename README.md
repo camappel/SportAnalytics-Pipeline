@@ -123,7 +123,6 @@ graph TD
 5. Different visualization components use the final data state for rendering
 
 ## Installation and Usage
-Clone the repository:
 ```bash
 git clone https://github.com/camappel/SportAnalytics-Pipeline.git
 cd SportAnalytics-Pipeline
