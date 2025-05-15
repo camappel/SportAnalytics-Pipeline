@@ -9,5 +9,4 @@ venv/
 .env
 .venv/
 
-*.mp4
 *.csv
